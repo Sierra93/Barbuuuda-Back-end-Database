@@ -1,2 +1,2 @@
 # Barbuuuda-Back-end-Database
-Barbuuuda-Back-end-Database - это библиотека Liquibase для миграций БД.
+Barbuuuda-Back-end-Database - это универсальная библиотека Liquibase для миграций любых БД.
