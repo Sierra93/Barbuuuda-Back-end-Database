@@ -5,13 +5,37 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-  <changeSet author="Anton"
+  <!-- <changeSet author=""
             id="[dbo].[Orders]_AddTableOrders.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
 	           path="[dbo].[Orders]_AddTableOrders.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet> -->
+
+   <!-- <changeSet author=""
+            id="[dbo].[Orders]_AlterTableOrders_011.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Orders]_AlterTableOrders_01.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet> -->
+
+  <changeSet author=""
+            id="[dbo].[Orders]_AlterTableOrders_02.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Orders]_AlterTableOrders_02.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
