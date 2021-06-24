@@ -17,8 +17,8 @@
 
   </changeSet> -->
 
-   <!-- <changeSet author=""
-            id="[dbo].[Orders]_AlterTableOrders_011.sql"
+   <changeSet author=""
+            id="[dbo].[Orders]_AlterTableOrders_01.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
@@ -27,9 +27,9 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
-  </changeSet> -->
+  </changeSet>
 
-  <!-- <changeSet author=""
+  <changeSet author=""
             id="[dbo].[Orders]_AlterTableOrders_02.sql"
             dbms="postgresql">
 
@@ -39,9 +39,9 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
-  </changeSet> -->
+  </changeSet>
 
-   <changeSet author=""
+   <!-- <changeSet author=""
             id="[dbo].[Orders]_AlterTableOrders_03.sql"
             dbms="postgresql">
 
@@ -51,6 +51,6 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
-  </changeSet>
+  </changeSet> -->
  
 </databaseChangeLog>
