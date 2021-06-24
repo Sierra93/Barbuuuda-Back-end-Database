@@ -29,13 +29,25 @@
 
   </changeSet> -->
 
-  <changeSet author=""
+  <!-- <changeSet author=""
             id="[dbo].[Orders]_AlterTableOrders_02.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
 	           path="[dbo].[Orders]_AlterTableOrders_02.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet> -->
+
+   <changeSet author=""
+            id="[dbo].[Orders]_AlterTableOrders_03.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Orders]_AlterTableOrders_03.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
