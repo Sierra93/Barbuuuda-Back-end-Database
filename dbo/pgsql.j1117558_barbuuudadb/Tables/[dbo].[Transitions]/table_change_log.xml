@@ -16,5 +16,17 @@
 	           stripComments="false"/>
 
   </changeSet>
+
+  <changeSet author="Anton"
+            id="[dbo].[Transactions]_ChangeFKTaskId.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Transactions]_ChangeFKTaskId.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
  
 </databaseChangeLog>
