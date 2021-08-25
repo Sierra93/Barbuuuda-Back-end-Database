@@ -5,6 +5,9 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-  <!-- <include file="dbo/mssql.u0772479_test_barbuuudadb/databse_change_log.xml" relativeToChangelogFile="true"/> -->
-  
+  <include file="[dbo].[Orders]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[Transitions]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[ControlSorts]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[ControlFilters]/table_change_log.xml" relativeToChangelogFile="true"/>
+	
 </databaseChangeLog>
