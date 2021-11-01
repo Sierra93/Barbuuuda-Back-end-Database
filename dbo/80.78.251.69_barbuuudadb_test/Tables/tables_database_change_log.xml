@@ -11,4 +11,5 @@
      <include file="[dbo].[Headers]/table_change_log.xml" relativeToChangelogFile="true"/>
      <include file="[dbo].[Priveleges]/table_change_log.xml" relativeToChangelogFile="true"/>
      <include file="[dbo].[Whies]/table_change_log.xml" relativeToChangelogFile="true"/>
+     <include file="[dbo].[Works]/table_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
