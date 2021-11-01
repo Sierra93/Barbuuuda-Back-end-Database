@@ -1,6 +1,6 @@
-CREATE TABLE "dbo"."Advantages" (
-    "AdvatangeId" bigserial primary key unique,
-    "MainTitle" varchar(200) ,
-    "SecondTitle" varchar(200) ,
-    "Text" varchar(500)
+CREATE TABLE IF NOT EXISTS "dbo"."Advantages" (
+    "id" serial primary key unique,
+    "main_title" varchar(200) ,
+    "second_title" varchar(200) ,
+    "text" varchar(500)
 );

@@ -1,6 +1,6 @@
-CREATE TABLE "dbo"."Fons" (
-    "FonId" bigserial primary key unique,
-    "MainTitle" varchar(200) ,
-    "SecondTitle" varchar(200) ,
-    "BtnText" varchar(100)
+CREATE TABLE IF NOT EXISTS "dbo"."Fons" (
+    "fon_id" serial primary key unique,
+    "main_title" varchar(200) ,
+    "second_title" varchar(200) ,
+    "btn-text" varchar(100)
 );

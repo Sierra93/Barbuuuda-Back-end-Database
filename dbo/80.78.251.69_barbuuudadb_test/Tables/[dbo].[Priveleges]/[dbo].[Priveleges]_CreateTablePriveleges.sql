@@ -1,5 +1,5 @@
-CREATE TABLE "dbo"."Priveleges" (
-    "PrivelegeId" bigserial primary key unique,
+CREATE TABLE if not exists "dbo"."Priveleges" (
+    "Id" serial primary key unique,
     "Title" varchar(200),
-    "Text" varchar(500)
+    "Text" text
 );

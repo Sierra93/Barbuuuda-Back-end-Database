@@ -1,6 +1,6 @@
-CREATE TABLE "dbo"."Whies" (
-    "WhyId" serial primary key unique,
-    "MainTitle" varchar(200) ,
-    "SecondTitle" varchar(200) ,
-    "Text" varchar(500)
+CREATE TABLE if not exists "dbo"."Whies" (
+    "id" serial primary key unique,
+    "main_title" varchar(200) ,
+    "second_title" varchar(200) ,
+    "text" varchar(500)
 );

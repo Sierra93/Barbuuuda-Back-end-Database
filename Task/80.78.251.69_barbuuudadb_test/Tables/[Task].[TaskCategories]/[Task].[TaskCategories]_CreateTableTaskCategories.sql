@@ -1,4 +1,4 @@
-create table "Task"."TaskCategories" (
-    "TaskCategoryId" serial primary key unique,
-    "TaskCategoryName" varchar(200) null    
+create table if not exists "Task"."TaskCategories" (
+    "category_id" serial primary key unique,
+    "category_name" varchar(200) null    
 );
