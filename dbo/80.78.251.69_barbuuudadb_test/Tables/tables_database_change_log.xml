@@ -6,7 +6,7 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
  
-	 <include file="[dbo].[Advantages]/table_change_log.xml" relativeToChangelogFile="true"/>
-     <include file="[Info].[Contacts]/table_change_log.xml" relativeToChangelogFile="true"/>
+	 <include file="[dbo].[Advantages]/table_change_log.xml" relativeToChangelogFile="true"/>     
      <include file="[dbo].[Fons]/table_change_log.xml" relativeToChangelogFile="true"/>
+     <include file="[dbo].[Headers]/table_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
