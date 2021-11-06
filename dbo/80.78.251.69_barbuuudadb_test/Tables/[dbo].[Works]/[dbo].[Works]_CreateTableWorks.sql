@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS "dbo"."Whies" (
+CREATE TABLE IF NOT EXISTS "dbo"."Works" (
     "work_id" serial primary key unique,
     "main_title" varchar(150),
     "second_title" varchar(150),
