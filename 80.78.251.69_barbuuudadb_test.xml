@@ -8,6 +8,6 @@
 <include file="dbo/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Info/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Logs/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
-<include file="Task/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Tasks/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="User/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>

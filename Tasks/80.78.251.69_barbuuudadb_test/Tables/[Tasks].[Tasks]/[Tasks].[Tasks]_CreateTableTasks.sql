@@ -1,4 +1,4 @@
-CREATE TABLE "Task"."Tasks" (
+CREATE TABLE IF NOT EXISTS "Tasks"."Tasks" (
 	"TaskId" serial4 NOT NULL,
 	"TaskBegda" timestamp NOT NULL DEFAULT now(),
 	"CountOffers" int4 NOT NULL DEFAULT 0,

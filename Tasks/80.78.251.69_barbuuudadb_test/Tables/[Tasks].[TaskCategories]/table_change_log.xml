@@ -6,12 +6,12 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet author=""
-            id="[Task].[TaskStatusEnum]_CreateTableTaskStatusEnum.sql"
+            id="[Tasks].[TaskCategories]_CreateTableTaskCategories.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="[Task].[TaskStatusEnum]_CreateTableTaskStatusEnum.sql"
+	           path="[Tasks].[TaskCategories]_CreateTableTaskCategories.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
