@@ -12,4 +12,6 @@
  <include file="[Tasks].[TaskTypes]/table_change_log.xml" relativeToChangelogFile="true"/>
  <include file="[Tasks].[TaskTypeEnum]/table_change_log.xml" relativeToChangelogFile="true"/>
  <include file="[Tasks].[Tasks]/table_change_log.xml" relativeToChangelogFile="true"/>
+ <include file="[Tasks].[Responds]/table_change_log.xml" relativeToChangelogFile="true"/>
+ <include file="[Tasks].[RespondTemplates]/table_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
