@@ -1,0 +1,20 @@
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+<include file="dbo/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Info/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Logs/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Tasks/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="User/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Transitions/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Controls/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Communications/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Payments/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Knowlege/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Activities/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Orders/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

@@ -1,2 +1,0 @@
-ALTER TABLE dbo."Orders" 
-ADD "DateCreate" TIMESTAMP NOT NULL DEFAULT NOW()

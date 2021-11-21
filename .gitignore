@@ -7,4 +7,5 @@
 **/pgsql.j1117558_test_barbuuudadb.properties
 **/mssql.u0772479_barbuuudadb.properties
 **/pgsql.j1117558_barbuuudadb.properties
+**/80.78.251.69_barbuuudadb_test.properties
 **/package-lock.json

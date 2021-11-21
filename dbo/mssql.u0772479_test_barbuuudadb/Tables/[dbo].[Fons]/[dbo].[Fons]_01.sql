@@ -1,3 +1,0 @@
--- alter table [dbo].[Fons] 
--- add [test_column] int null
--- GO

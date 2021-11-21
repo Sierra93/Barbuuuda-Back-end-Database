@@ -1,3 +1,0 @@
-ALTER TABLE dbo."Orders" 
-ALTER COLUMN "TaskId" 
-DROP NOT NULL;
