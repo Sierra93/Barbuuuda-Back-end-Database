@@ -15,4 +15,5 @@
 <include file="Communications/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Payments/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Knowlege/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Activities/80.78.251.69_barbuuudadb_test/database_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
